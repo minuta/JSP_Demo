@@ -11,7 +11,7 @@ public class HelloServlet extends HttpServlet {
 
     @Override
     public void init() {
-        message = "Hello Worl   d!";
+        message = "Hello from Servlet!";
     }
 
     @Override
