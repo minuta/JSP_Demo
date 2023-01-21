@@ -26,6 +26,24 @@
         console.log(timestamp + " " + str);
     </script>
 
+    <script>
+        function getTime() {
+            let today = new Date();
+            let date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+            let time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+            return date + ' ' + time ;
+        }
+
+        function log(str) {
+            console.log(getTime() + '   ' + str);
+        }
+
+        log("logging via JS");
+    </script>
+
+    <script>
+        log("yet another JS log");
+    </script>
 
     <a href="hello-servlet">call me a servlet</a>
 
