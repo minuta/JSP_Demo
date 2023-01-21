@@ -14,9 +14,18 @@
     <br/>
 
     <%
-        Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+        String timestamp = new Timestamp(System.currentTimeMillis()).toString();
         System.out.println(timestamp + " FFFF ---> console log message with a timestamp!");
+        String foo = "foobar";
     %>
+
+
+    <script type="text/javascript">
+        let str = '<%= foo %>';
+        let timestamp = '<%= timestamp %>';
+        console.log(timestamp + " " + str);
+    </script>
+
 
     <a href="hello-servlet">call me a servlet</a>
 
