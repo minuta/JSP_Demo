@@ -1,4 +1,7 @@
+<%@ page errorPage = "error.jsp" %>
+
 <%@ page import="java.sql.Timestamp" %>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -44,6 +47,14 @@
     <script>
         log("yet another JS log");
     </script>
+
+    <%
+        // Throw an exception to invoke the error page
+        int x = 1;
+        if (x == 1) {
+            throw new RuntimeException("Error condition for the parameter x!");
+        }
+    %>
 
     <a href="hello-servlet">call me a servlet</a>
 
