@@ -19,7 +19,7 @@
     <p><a href="page_with_logs.jsp">demonsrating logs</a></p>
     <p><a href="error.jsp">demonsrating error page</a></p>
     <p><a href="page_with_error.jsp">demonsrating a page generating an exception</a></p>
-    <p><a href="handler.jsp">JSP expressions</a></p>
+    <p><a href="jsp_expressions.jsp">JSP expressions</a></p>
 
 
 </body>
