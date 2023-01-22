@@ -22,6 +22,7 @@
     <p><a href="jsp_expressions.jsp">JSP expressions</a></p>
     <p><a href="call_java_class.jsp">call from a java class</a></p>
     <p><a href="jsp_built_in_objects.jsp">use JSP built-in objects</a></p>
+    <p><a href="page_with_included_html_and_jsp.jsp">include a JSP and HTML file as Header/Footer</a></p>
 
 
 </body>
