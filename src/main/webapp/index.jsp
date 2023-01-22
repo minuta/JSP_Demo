@@ -20,6 +20,8 @@
     <p><a href="error.jsp">demonsrating error page</a></p>
     <p><a href="page_with_error.jsp">demonsrating a page generating an exception</a></p>
     <p><a href="jsp_expressions.jsp">JSP expressions</a></p>
+    <p><a href="call_java_class.jsp">call from a java class</a></p>
+    <p><a href="jsp_built_in_objects.jsp">use JSP built-in objects</a></p>
 
 
 </body>
